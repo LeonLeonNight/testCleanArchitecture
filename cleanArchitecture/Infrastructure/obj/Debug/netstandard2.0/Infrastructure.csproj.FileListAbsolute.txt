@@ -1,0 +1,8 @@
+C:\Users\SolovievNV\Desktop\cleanArchitect\cleanArchitecture\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.deps.json
+C:\Users\SolovievNV\Desktop\cleanArchitect\cleanArchitecture\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.dll
+C:\Users\SolovievNV\Desktop\cleanArchitect\cleanArchitecture\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.pdb
+C:\Users\SolovievNV\Desktop\cleanArchitect\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+C:\Users\SolovievNV\Desktop\cleanArchitect\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\SolovievNV\Desktop\cleanArchitect\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+C:\Users\SolovievNV\Desktop\cleanArchitect\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
+C:\Users\SolovievNV\Desktop\cleanArchitect\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb
