@@ -1,0 +1,3 @@
+C:\Users\SolovievNV\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\SolovievNV\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\SolovievNV\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfo.cs

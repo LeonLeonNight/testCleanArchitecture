@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ApplicationCore.Entities.ContactAggregate
 {
-    class Contact : BaseEntity
+    public class Contact : BaseEntity
     {
         public string UserId { get; set; }
         public string FirstName { get; set; }
