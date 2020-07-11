@@ -6931,23 +6931,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SolovievNV\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SolovievNV\\Desktop\\testCleanArchitecture\\cleanArchitecture\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\testCleanArchitecture\\cleanArchitecture\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "C:\\Users\\SolovievNV\\Desktop\\testCleanArchitecture\\cleanArchitecture\\ApplicationCore\\ApplicationCore.csproj",
-      "packagesPath": "C:\\Users\\SolovievNV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SolovievNV\\Desktop\\testCleanArchitecture\\cleanArchitecture\\ApplicationCore\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\testCleanArchitecture\\cleanArchitecture\\ApplicationCore\\ApplicationCore.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\testCleanArchitecture\\cleanArchitecture\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\SolovievNV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
