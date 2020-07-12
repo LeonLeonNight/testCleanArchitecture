@@ -9,3 +9,14 @@ C:\Users\SolovievNV\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructu
 C:\Users\SolovievNV\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CopyComplete
 C:\Users\SolovievNV\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.dll
 C:\Users\SolovievNV\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.pdb
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.deps.json
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.dll
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.pdb
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\bin\Debug\netstandard2.1\ApplicationCore.dll
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\bin\Debug\netstandard2.1\ApplicationCore.pdb
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfo.cs
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CopyComplete
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.dll
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.pdb

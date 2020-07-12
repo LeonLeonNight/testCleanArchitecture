@@ -1,0 +1,30 @@
+﻿@model Web.ViewModels.Account.RegisterViewModel
+@{}
+
+<h2>Регистрация нового пользователя</h2>
+<form method="post" asp-controller="Account" asp-action="Register">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div class="col-4">
+        <label asp-for="Email"></label><br />
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div class="col-4">
+        <label asp-for="BirthDate"></label><br />
+        <input asp-for="BirthDate" class="form-control" data-provide="datepicker" data-date-autoclose="true" data-date-format="yyyy-mm-dd">
+        <span asp-validation-for="BirthDate"></span>
+    </div>
+    <div class="col-4">
+        <label asp-for="Password"></label><br />
+        <input asp-for="Password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <div class="col-4">
+        <label asp-for="PasswordConfirm"></label><br />
+        <input asp-for="PasswordConfirm" />
+        <span asp-validation-for="PasswordConfirm"></span>
+    </div>
+    <div class="col-4">
+        <input type="submit" value="Регистрация" />
+    </div>
+</form>

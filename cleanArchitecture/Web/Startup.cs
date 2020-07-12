@@ -13,6 +13,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Infrastructure.Data;
 using Infrastructure.Identity;
+using Web.Configuration;
+using ApplicationCore.Entities.UserAggregate;
 
 namespace Web
 {
@@ -29,13 +31,24 @@ namespace Web
         public void ConfigureServices(IServiceCollection services)
         {
             var strConnection = Configuration.GetConnectionString("DefaultConnection");
+            //ConfigureCookieSettings.Configure(services);
 
-            services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(strConnection));
+            services.AddDbContext<ApplicationContext>(options =>
+            options.UseSqlServer(strConnection));
 
-            services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationUserContext>();
+            services.AddDbContext<ApplicationUserContext>(options => 
+            options.UseSqlServer(strConnection));
 
-            services.AddControllersWithViews();
-            services.AddRazorPages();
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationUserContext>()
+                .AddDefaultTokenProviders(); ;
+
+            //ConfigureCoreServices.Configure(services, Configuration);
+            //ConfigureWebServices.Configure(services, Configuration);
+
+            services.AddMvc();
+            //services.AddControllersWithViews();
+            //services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

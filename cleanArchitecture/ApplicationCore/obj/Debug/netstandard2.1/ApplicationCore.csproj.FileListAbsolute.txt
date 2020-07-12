@@ -6,3 +6,11 @@ C:\Users\SolovievNV\Desktop\testCleanArchitecture\cleanArchitecture\ApplicationC
 C:\Users\SolovievNV\Desktop\testCleanArchitecture\cleanArchitecture\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.pdb
 C:\Users\SolovievNV\Desktop\testCleanArchitecture\cleanArchitecture\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.dll
 C:\Users\SolovievNV\Desktop\testCleanArchitecture\cleanArchitecture\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.pdb
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.deps.json
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.dll
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.pdb
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.csprojAssemblyReference.cache
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.AssemblyInfo.cs
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.dll
+C:\Users\User\Desktop\testCleanArchitecture\cleanArchitecture\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.pdb

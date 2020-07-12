@@ -9,14 +9,12 @@ namespace Infrastructure.Data
 {
     public class ApplicationContext : DbContext
     {
-        public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options) { }
+        public ApplicationContext(DbContextOptions<ApplicationContext> options) 
+            : base(options) 
+        { 
+            Database.EnsureCreated(); 
+        }
 
         public DbSet<Contact> Contacts { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-            builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-        }
     }
 }

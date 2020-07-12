@@ -3,19 +3,16 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using ApplicationCore.Entities.UserAggregate;
 
 namespace Infrastructure.Identity
 {
     public class ApplicationUserContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationUserContext(DbContextOptions<ApplicationUserContext> options) : base(options) { }
-
-        protected override void OnModelCreating(ModelBuilder builder)
+        public ApplicationUserContext(DbContextOptions<ApplicationUserContext> options) 
+            : base(options) 
         {
-            base.OnModelCreating(builder);
-            // Customize the ASP.NET Identity model and override the defaults if needed.
-            // For example, you can rename the ASP.NET Identity table names and more.
-            // Add your customizations after calling base.OnModelCreating(builder);
-        }
+            Database.EnsureCreated();
+        }   
     }
 }
