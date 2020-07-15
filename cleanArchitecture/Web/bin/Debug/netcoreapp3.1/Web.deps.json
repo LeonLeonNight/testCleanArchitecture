@@ -26,6 +26,7 @@
         "dependencies": {
           "ApplicationCore": "1.0.0",
           "Infrastructure": "1.0.0",
+          "MediatR": "8.0.2",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.5",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.5",
@@ -303,6 +304,17 @@
         },
         "compile": {
           "Web.dll": {}
+        }
+      },
+      "MediatR/8.0.2": {
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication/2.2.0": {
@@ -2574,6 +2586,7 @@
       },
       "ApplicationCore/1.0.0": {
         "dependencies": {
+          "MediatR": "8.0.2",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.5",
           "Microsoft.EntityFrameworkCore": "3.1.5",
@@ -2589,6 +2602,7 @@
       "Infrastructure/1.0.0": {
         "dependencies": {
           "ApplicationCore": "1.0.0",
+          "MediatR": "8.0.2",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.5",
           "Microsoft.EntityFrameworkCore": "3.1.5",
@@ -4180,6 +4194,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "MediatR/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mexVNDRj2T/z0OkxO5H5HPKowTP1iyToCACV/bZ/mU1X4MbzcBlqqQwGF40k+rfi+1ePcTYzSZLsFp2zM4e7g==",
+      "path": "mediatr/8.0.2",
+      "hashPath": "mediatr.8.0.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
       "type": "package",

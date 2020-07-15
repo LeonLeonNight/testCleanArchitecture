@@ -8,9 +8,8 @@ namespace Infrastructure.Data
 {
     public class ContactRepository : EfRepository<Contact>, IContactRepository
     {
-        public ContactRepository(ApplicationContext dbContext) : base(dbContext) 
-        { 
+        public ContactRepository(ApplicationContext dbContext) : base(dbContext) { }
 
-        }
+
     }
 }
